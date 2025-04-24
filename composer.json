@@ -1,0 +1,36 @@
+{
+    "name": "da1shiq/lara-make-service",
+    "description": "Library to enable Laravel devs to create Service class",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Da1shiq\\LaraMakeService\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Da1shiq\\LaraMakeService\\MakeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Rizky Dhani",
+            "email": "rizkydhani15@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../make-service"
+        }
+    ]
+}
