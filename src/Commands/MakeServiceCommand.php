@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Da1shiq\LaraMakeService\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 
-class MakeService extends Command
+class MakeServiceCommand extends Command
 {
     /**
      * The name and signature of the console command.
