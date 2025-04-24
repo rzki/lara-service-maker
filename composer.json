@@ -1,5 +1,5 @@
 {
-    "name": "da1shiq/lara-make-service",
+    "name": "da1shiq/lara-service-maker",
     "description": "Library to enable Laravel devs to create Service class",
     "type": "library",
     "license": "MIT",
