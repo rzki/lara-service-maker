@@ -1,10 +1,10 @@
 <?php
-namespace Da1shiq\MakeService;
+namespace Da1shiq\LaraMakeService;
 
 use Illuminate\Support\ServiceProvider;
 use Da1shiq\MakeService\Commands\MakeServiceCommand;
 
-class MakeServiceServiceProvider extends ServiceProvider
+class MakeServiceProvider extends ServiceProvider
 {
     public function register()
     {
